@@ -18,7 +18,7 @@ bool FileCacheManager:: keyExistInCache(string key){
 FileCacheManager::FileCacheManager() {
     fstream inputFile(CACHE_FILE);
     if (!inputFile.is_open()) {
-        throw std::runtime_error("could not open the file");
+        throw runtime_error("could not open the file");
     }
 }
 
@@ -30,10 +30,10 @@ string FileCacheManager:: readAllFileContent(){
         return fileContent;
 }
 
-const vector<string> FileCacheManager:: splitByDelimeter(std::string &input, const char &c){
+const vector<string> FileCacheManager:: splitByDelimeter(string &input, const char &c){
 
     string strbuff{""};
-    vector<std::string> strvec;
+    vector<string> strvec;
     //remove EOL
     //input = input.substr(0,input.length()-2);
 
@@ -54,7 +54,7 @@ const vector<string> FileCacheManager:: splitByDelimeter(std::string &input, con
 
 }
 
-string FileCacheManager::loadFromCache(std::string key) {
+string FileCacheManager::loadFromCache(string key) {
 
     mtx.lock();
 
@@ -62,12 +62,12 @@ string FileCacheManager::loadFromCache(std::string key) {
 
     vector<string> splitedvec = splitByDelimeter(fileContent, DELIMITER);
 
-    std::map<std::string, std::string> cacheMap;
+    map<string, string> problemsToSolutions;
 
     for(auto it = splitedvec.begin();it != splitedvec.end(); it += 2 ) {
-        std::string currKey = *it;
-        std::string currValue = *(it + 1);
-        cacheMap.insert(std::pair<std::string, std::string>(currKey, currValue));
+        string currKey = *it;
+        string currValue = *(it + 1);
+        problemsToSolutions.insert(pair<string, string>(currKey, currValue));
 
     }
 

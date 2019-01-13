@@ -9,7 +9,7 @@ int main() {
 
     FileCacheManager *fileCacheManager = new FileCacheManager();
     //fileCacheManager->loadFromCache("einav");
-    fileCacheManager->keyExistInCache("popo");
+    //fileCacheManager->keyExistInCache("popo");
     //fileCacheManager->saveDataInCache("gilad","koren");
 
     return 0;

@@ -12,6 +12,10 @@ string
 
 /home/einav/CLionProjects/new milestone 2/ClientHandler.h
 
+/home/einav/CLionProjects/new milestone 2/FileCacheManager.cpp
+FileCacheManager.h
+/home/einav/CLionProjects/new milestone 2/FileCacheManager.h
+
 /home/einav/CLionProjects/new milestone 2/FileCacheManager.h
 string
 -
@@ -35,12 +39,4 @@ mutex
 -
 
 /home/einav/CLionProjects/new milestone 2/Solver.h
-
-/home/einav/CLionProjects/new milestone 2/main.cpp
-iostream
--
-FileCacheManager.h
-/home/einav/CLionProjects/new milestone 2/FileCacheManager.h
-CacheManager.h
-/home/einav/CLionProjects/new milestone 2/CacheManager.h
 
