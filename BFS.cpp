@@ -10,9 +10,9 @@ SearchResult BFS:: search (Searchable *searchable ) {
 
     //initialize the search result before fill that struct
     SearchResult searchResult;
-    searchResult.shortesWeight = 0;
+    searchResult.shortestWeight = 0;
     searchResult.shortestRoute = "";
-    searchResult.visitedVertices = 0;
+    searchResult.developedVertices = 0;
 
     //goal state
     State *stateOfgoal = searchable->getGoalState();
@@ -37,55 +37,67 @@ SearchResult BFS:: search (Searchable *searchable ) {
         //if we reach here, we are on search-
         //four directions of the current state in the searchable structer:
 
-        //top
-        if (currState->top != NULL && !currState->top->isInfinity
-                && currState->top->commingFrom == NotSet){
+        //top != NULL
+        if(currState->top != NULL){
+            if(!currState->top->isInfinity){
+                if(currState->top->commingFrom == NotSet){
 
-            currState->top->commingFrom = Down;
-            priorityQueue.push(currState->top);
+                    currState->top->commingFrom = Down;
+                    priorityQueue.push(currState->top);
+                }
+            }
         }
 
-        //bottom
-        if (currState->bottom != NULL && !currState->bottom->isInfinity
-                && currState->bottom->commingFrom == NotSet){
+        //bottom != NULL
+        if(currState->bottom != NULL){
+            if(!currState->bottom->isInfinity){
+                if(currState->bottom->commingFrom == NotSet){
 
-            currState->bottom->commingFrom = Up;
-            priorityQueue.push(currState->bottom);
+                    currState->bottom->commingFrom = Up;
+                    priorityQueue.push(currState->bottom);
+                }
+            }
         }
 
-        //left
-        if (currState->left != NULL && !currState->left->isInfinity
-                && currState->left->commingFrom == NotSet){
+        //left != NULL
+        if(currState->left != NULL){
+            if(!currState->left->isInfinity){
+                if(currState->left->commingFrom == NotSet){
 
-            currState->left->commingFrom = Right;
-            priorityQueue.push(currState->left);
+                    currState->left->commingFrom = Right;
+                    priorityQueue.push(currState->left);
+                }
+            }
         }
 
-        //right
-        if (currState->right != NULL && !currState->right->isInfinity
-                && currState->right->commingFrom == NotSet){
+        //right != NULL
+        if(currState->right != NULL){
+            if(!currState->right->isInfinity){
+                if(currState->right->commingFrom == NotSet){
 
-            currState->right->commingFrom = Left;
-            priorityQueue.push(currState->right);
+                    currState->right->commingFrom = Left;
+                    priorityQueue.push(currState->right);
+                }
+            }
         }
 
-        searchResult.visitedVertices++;
+        searchResult.developedVertices++;
     }
 
     //if we reach here, no path exists
     if (currState != stateOfgoal){
         searchResult.shortestRoute = "";
-        searchResult.shortesWeight = -1;
+        searchResult.shortestWeight = -1;
         return searchResult;
     }
 
-
     string currDirection;
-    bool arrivedStart = false;
+
+    bool isStartState = false;
 
     //restore the data from our progress untill we reach the goal state
-    while (!arrivedStart){
-        searchResult.shortesWeight += currState->weigth;
+    while (!isStartState){
+        searchResult.shortestWeight += currState->weigth;
         switch (currState->commingFrom)
         {
             case Up:
@@ -106,12 +118,12 @@ SearchResult BFS:: search (Searchable *searchable ) {
                 break;
             case Start:
                 //we reach the start state
-                arrivedStart = true;
+                isStartState = true;
                 break;
             default:
                 throw "not valid progress";
         }
-        if (!arrivedStart)
+        if (!isStartState)
             searchResult.shortestRoute.insert(0, currDirection);
     }
     searchResult.shortestRoute =

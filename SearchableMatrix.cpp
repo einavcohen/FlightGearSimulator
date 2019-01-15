@@ -1,21 +1,6 @@
 #include <iostream>
 #include "SearchableMatrix.h"
 
-
-State * SearchableMatrix::getStartState(){
-    return this->startState;
-}
-
-State * SearchableMatrix:: getGoalState() {
-    return this->destState;
-}
-
-
-vector<State *> SearchableMatrix::getAllPossibleStates(State *s) {
-    return s->getNeighbors();
-}
-
-
 SearchableMatrix::SearchableMatrix(vector<vector<int>> inputMatrix,
         pair<int, int> src, pair<int, int> dst) :
               matrix(inputMatrix.size(),
@@ -24,7 +9,7 @@ SearchableMatrix::SearchableMatrix(vector<vector<int>> inputMatrix,
     int sizeOfRows = inputMatrix.size();
     int sizeOfCols = inputMatrix[0].size();
 
-    //build the matrix
+    //build the structure of matrix
     for (int i = 0; i < sizeOfRows; ++i) {
         for (int j = 0; j < sizeOfCols; ++j) {
             int currWeigth = inputMatrix[i][j];
@@ -32,7 +17,7 @@ SearchableMatrix::SearchableMatrix(vector<vector<int>> inputMatrix,
         }
     }
 
-    //init all states
+    //init all states in matrix
     for (int i = 0; i < sizeOfRows; ++i) {
 
         for (int j = 0; j < sizeOfCols; ++j) {
@@ -41,7 +26,7 @@ SearchableMatrix::SearchableMatrix(vector<vector<int>> inputMatrix,
 
             currState->commingFrom = NotSet;
 
-            currState->isMarked = false;
+            currState->isVisited = false;
 
             if (currState->weigth == -1) {
                 currState->isInfinity = true;
@@ -91,5 +76,19 @@ SearchableMatrix::SearchableMatrix(vector<vector<int>> inputMatrix,
 
     }
 
+}
+
+
+State * SearchableMatrix::getStartState(){
+    return this->startState;
+}
+
+State * SearchableMatrix:: getGoalState() {
+    return this->destState;
+}
+
+
+vector<State *> SearchableMatrix::getAllPossibleStates(State *s) {
+    return s->getNeighbors();
 }
 

@@ -32,7 +32,7 @@ using std:: string;
 
         int weigth;
         bool isInfinity;
-        bool isMarked;
+        bool isVisited;
         Direction commingFrom;
         unsigned int indexOfRow;
         unsigned int indexOfCol;
@@ -42,7 +42,7 @@ using std:: string;
             bottom=NULL;
             left=NULL;
             right=NULL;
-            isMarked= false;
+            isVisited= false;
             weight=weight;
         };
 
@@ -67,9 +67,9 @@ using std:: string;
 
         string shortestRoute;
 
-        int shortesWeight;
+        int shortestWeight;
 
-        int visitedVertices;
+        int developedVertices;
 
     };
 

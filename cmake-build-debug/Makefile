@@ -150,6 +150,33 @@ BFS.cpp.s:
 	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/BFS.cpp.s
 .PHONY : BFS.cpp.s
 
+DFS.o: DFS.cpp.o
+
+.PHONY : DFS.o
+
+# target to build an object file
+DFS.cpp.o:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/DFS.cpp.o
+.PHONY : DFS.cpp.o
+
+DFS.i: DFS.cpp.i
+
+.PHONY : DFS.i
+
+# target to preprocess a source file
+DFS.cpp.i:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/DFS.cpp.i
+.PHONY : DFS.cpp.i
+
+DFS.s: DFS.cpp.s
+
+.PHONY : DFS.s
+
+# target to generate assembly for a file
+DFS.cpp.s:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/DFS.cpp.s
+.PHONY : DFS.cpp.s
+
 FileCacheManager.o: FileCacheManager.cpp.o
 
 .PHONY : FileCacheManager.o
@@ -243,6 +270,9 @@ help:
 	@echo "... BFS.o"
 	@echo "... BFS.i"
 	@echo "... BFS.s"
+	@echo "... DFS.o"
+	@echo "... DFS.i"
+	@echo "... DFS.s"
 	@echo "... FileCacheManager.o"
 	@echo "... FileCacheManager.i"
 	@echo "... FileCacheManager.s"

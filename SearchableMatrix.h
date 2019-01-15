@@ -10,7 +10,7 @@ using std::pair;
 
 
 class SearchableMatrix : public Searchable{
-
+    private:
         State *startState;
         State *destState;
 
@@ -21,9 +21,9 @@ class SearchableMatrix : public Searchable{
         SearchableMatrix(vector<vector<int>> inputMatrix, pair<int, int> src, pair<int, int> dst);
 
         State *getStartState() override;
-        
+
         State *getGoalState() override;
-        
+
          //neighbors of a given state
         vector<State *> getAllPossibleStates(State *s) override;
 

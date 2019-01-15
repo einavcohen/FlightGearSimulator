@@ -96,6 +96,12 @@
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/ClientHandler.h">
 			<Option target="new_milestone_2"/>
 		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/DFS.cpp">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/DFS.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/FileCacheManager.cpp">
 			<Option target="new_milestone_2"/>
 		</Unit>

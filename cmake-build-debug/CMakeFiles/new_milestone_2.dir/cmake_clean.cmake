@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/new_milestone_2.dir/FileCacheManager.cpp.o"
   "CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o"
   "CMakeFiles/new_milestone_2.dir/BFS.cpp.o"
+  "CMakeFiles/new_milestone_2.dir/DFS.cpp.o"
   "new_milestone_2.pdb"
   "new_milestone_2"
 )
