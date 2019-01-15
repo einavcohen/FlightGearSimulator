@@ -22,9 +22,11 @@ SearchResult BFS:: search (Searchable *searchable ) {
 
     searchable->getStartState()->commingFrom = Start;
 
+    //push the start state to the queue
     priorityQueue.push((searchable->getStartState()));
 
     State *currState;
+
     while (!priorityQueue.empty()) {
         currState = priorityQueue.front();
         priorityQueue.pop();
@@ -70,4 +72,51 @@ SearchResult BFS:: search (Searchable *searchable ) {
         searchResult.visitedVertices++;
     }
 
+    //if we reach here, no path exists
+    if (currState != stateOfgoal){
+        searchResult.shortestRoute = "";
+        searchResult.shortesWeight = -1;
+        return searchResult;
+    }
+
+
+    string currDirection;
+    bool arrivedStart = false;
+
+    //restore the data from our progress untill we reach the goal state
+    while (!arrivedStart){
+        searchResult.shortesWeight += currState->weigth;
+        switch (currState->commingFrom)
+        {
+            case Up:
+                currState = currState->top;
+                currDirection = "Down, ";
+                break;
+            case Down:
+                currState = currState->bottom;
+                currDirection = "Up, ";
+                break;
+            case Left:
+                currState = currState->left;
+                currDirection = "Right, ";
+                break;
+            case Right:
+                currState = currState->right;
+                currDirection = "Left, ";
+                break;
+            case Start:
+                //we reach the start state
+                arrivedStart = true;
+                break;
+            default:
+                throw "not valid progress";
+        }
+        if (!arrivedStart)
+            searchResult.shortestRoute.insert(0, currDirection);
+    }
+    searchResult.shortestRoute =
+            searchResult.shortestRoute.substr(0,
+                    searchResult.shortestRoute.length() - 2);
+
+    return searchResult;
 }
