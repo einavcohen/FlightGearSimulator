@@ -96,6 +96,24 @@
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/FileCacheManager.h">
 			<Option target="new_milestone_2"/>
 		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/Searchable.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/SearchableMatrix.cpp">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/SearchableMatrix.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/Searcher.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/SearcherSolver.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/StructSearchResult.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/main.cpp">
 			<Option target="new_milestone_2"/>
 		</Unit>

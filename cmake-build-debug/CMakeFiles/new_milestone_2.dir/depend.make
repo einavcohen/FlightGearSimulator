@@ -7,6 +7,11 @@ CMakeFiles/new_milestone_2.dir/FileCacheManager.cpp.o: ../FileCacheManager.cpp
 CMakeFiles/new_milestone_2.dir/FileCacheManager.cpp.o: ../FileCacheManager.h
 CMakeFiles/new_milestone_2.dir/FileCacheManager.cpp.o: ../Solver.h
 
+CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o: ../Searchable.h
+CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o: ../SearchableMatrix.cpp
+CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o: ../SearchableMatrix.h
+CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o: ../StructSearchResult.h
+
 CMakeFiles/new_milestone_2.dir/main.cpp.o: ../CacheManager.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o: ../ClientHandler.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o: ../FileCacheManager.h

@@ -38,5 +38,35 @@ CacheManager.h
 mutex
 -
 
+/home/einav/CLionProjects/new milestone 2/Searchable.h
+vector
+-
+StructSearchResult.h
+/home/einav/CLionProjects/new milestone 2/StructSearchResult.h
+
+/home/einav/CLionProjects/new milestone 2/SearchableMatrix.cpp
+iostream
+-
+SearchableMatrix.h
+/home/einav/CLionProjects/new milestone 2/SearchableMatrix.h
+
+/home/einav/CLionProjects/new milestone 2/SearchableMatrix.h
+Searchable.h
+/home/einav/CLionProjects/new milestone 2/Searchable.h
+
 /home/einav/CLionProjects/new milestone 2/Solver.h
+
+/home/einav/CLionProjects/new milestone 2/StructSearchResult.h
+string
+-
+vector
+-
+
+/home/einav/CLionProjects/new milestone 2/main.cpp
+iostream
+-
+FileCacheManager.h
+/home/einav/CLionProjects/new milestone 2/FileCacheManager.h
+CacheManager.h
+/home/einav/CLionProjects/new milestone 2/CacheManager.h
 

@@ -6,9 +6,16 @@
 #define MILESTONE_2_SOLVER_H
 using namespace std;
 
+template <class Problem, class Solution>
+
 class Solver {
-public:
-    template <class T>
-    T solve(T Problem);
-};
+
+    public:
+        //solve method to solve the problem
+        virtual Solution solve(Problem) = 0;
+        //distructor
+        virtual ~Solver() = default;
+
+    };
+
 #endif //MILESTONE_2_SOLVER_H

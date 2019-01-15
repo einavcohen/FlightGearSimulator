@@ -7,6 +7,11 @@ CMakeFiles/new_milestone_2.dir/FileCacheManager.cpp.o
  /home/einav/CLionProjects/new milestone 2/FileCacheManager.cpp
  /home/einav/CLionProjects/new milestone 2/FileCacheManager.h
  /home/einav/CLionProjects/new milestone 2/Solver.h
+CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o
+ /home/einav/CLionProjects/new milestone 2/Searchable.h
+ /home/einav/CLionProjects/new milestone 2/SearchableMatrix.cpp
+ /home/einav/CLionProjects/new milestone 2/SearchableMatrix.h
+ /home/einav/CLionProjects/new milestone 2/StructSearchResult.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o
  /home/einav/CLionProjects/new milestone 2/CacheManager.h
  /home/einav/CLionProjects/new milestone 2/ClientHandler.h

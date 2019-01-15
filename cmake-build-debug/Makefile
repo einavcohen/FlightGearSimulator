@@ -150,6 +150,33 @@ FileCacheManager.cpp.s:
 	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/FileCacheManager.cpp.s
 .PHONY : FileCacheManager.cpp.s
 
+SearchableMatrix.o: SearchableMatrix.cpp.o
+
+.PHONY : SearchableMatrix.o
+
+# target to build an object file
+SearchableMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o
+.PHONY : SearchableMatrix.cpp.o
+
+SearchableMatrix.i: SearchableMatrix.cpp.i
+
+.PHONY : SearchableMatrix.i
+
+# target to preprocess a source file
+SearchableMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.i
+.PHONY : SearchableMatrix.cpp.i
+
+SearchableMatrix.s: SearchableMatrix.cpp.s
+
+.PHONY : SearchableMatrix.s
+
+# target to generate assembly for a file
+SearchableMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.s
+.PHONY : SearchableMatrix.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... FileCacheManager.o"
 	@echo "... FileCacheManager.i"
 	@echo "... FileCacheManager.s"
+	@echo "... SearchableMatrix.o"
+	@echo "... SearchableMatrix.i"
+	@echo "... SearchableMatrix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
