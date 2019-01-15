@@ -69,7 +69,7 @@ using std:: string;
 
         int shortesWeight;
 
-        int developedVertices;
+        int visitedVertices;
 
     };
 

@@ -123,6 +123,33 @@ new_milestone_2/fast:
 	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/build
 .PHONY : new_milestone_2/fast
 
+BFS.o: BFS.cpp.o
+
+.PHONY : BFS.o
+
+# target to build an object file
+BFS.cpp.o:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/BFS.cpp.o
+.PHONY : BFS.cpp.o
+
+BFS.i: BFS.cpp.i
+
+.PHONY : BFS.i
+
+# target to preprocess a source file
+BFS.cpp.i:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/BFS.cpp.i
+.PHONY : BFS.cpp.i
+
+BFS.s: BFS.cpp.s
+
+.PHONY : BFS.s
+
+# target to generate assembly for a file
+BFS.cpp.s:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/BFS.cpp.s
+.PHONY : BFS.cpp.s
+
 FileCacheManager.o: FileCacheManager.cpp.o
 
 .PHONY : FileCacheManager.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... new_milestone_2"
+	@echo "... BFS.o"
+	@echo "... BFS.i"
+	@echo "... BFS.s"
 	@echo "... FileCacheManager.o"
 	@echo "... FileCacheManager.i"
 	@echo "... FileCacheManager.s"
