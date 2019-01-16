@@ -1,3 +1,0 @@
-/home/einav/CLionProjects/new milestone 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/einav/CLionProjects/new milestone 2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/einav/CLionProjects/new milestone 2/cmake-build-debug/CMakeFiles/new_milestone_2.dir
