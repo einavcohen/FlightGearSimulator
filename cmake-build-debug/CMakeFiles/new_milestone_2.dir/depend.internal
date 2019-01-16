@@ -38,8 +38,22 @@ CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o
  /home/einav/CLionProjects/new milestone 2/SearchableMatrix.h
  /home/einav/CLionProjects/new milestone 2/StructSearchResult.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o
+ /home/einav/CLionProjects/new milestone 2/AStar.h
+ /home/einav/CLionProjects/new milestone 2/BFS.h
+ /home/einav/CLionProjects/new milestone 2/BestFirstSearch.h
  /home/einav/CLionProjects/new milestone 2/CacheManager.h
  /home/einav/CLionProjects/new milestone 2/ClientHandler.h
+ /home/einav/CLionProjects/new milestone 2/DFS.h
  /home/einav/CLionProjects/new milestone 2/FileCacheManager.h
+ /home/einav/CLionProjects/new milestone 2/FilesWriterAlgo.h
+ /home/einav/CLionProjects/new milestone 2/MySerialServer.h
+ /home/einav/CLionProjects/new milestone 2/MyTestClientHandler.h
+ /home/einav/CLionProjects/new milestone 2/Searchable.h
+ /home/einav/CLionProjects/new milestone 2/SearchableMatrix.h
+ /home/einav/CLionProjects/new milestone 2/Searcher.h
+ /home/einav/CLionProjects/new milestone 2/SearcherSolver.h
+ /home/einav/CLionProjects/new milestone 2/Server.h
  /home/einav/CLionProjects/new milestone 2/Solver.h
+ /home/einav/CLionProjects/new milestone 2/StringReverser.h
+ /home/einav/CLionProjects/new milestone 2/StructSearchResult.h
  /home/einav/CLionProjects/new milestone 2/main.cpp

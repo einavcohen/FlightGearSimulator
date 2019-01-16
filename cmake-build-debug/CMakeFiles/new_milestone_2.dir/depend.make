@@ -37,9 +37,23 @@ CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o: ../SearchableMatrix.cpp
 CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o: ../SearchableMatrix.h
 CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o: ../StructSearchResult.h
 
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../AStar.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../BFS.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../BestFirstSearch.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o: ../CacheManager.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o: ../ClientHandler.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../DFS.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o: ../FileCacheManager.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../FilesWriterAlgo.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../MySerialServer.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../MyTestClientHandler.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../Searchable.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../SearchableMatrix.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../Searcher.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../SearcherSolver.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../Server.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o: ../Solver.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../StringReverser.h
+CMakeFiles/new_milestone_2.dir/main.cpp.o: ../StructSearchResult.h
 CMakeFiles/new_milestone_2.dir/main.cpp.o: ../main.cpp
 

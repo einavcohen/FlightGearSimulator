@@ -1,16 +1,19 @@
 #include <iostream>
 #include "FileCacheManager.h"
 #include "CacheManager.h"
-
+#include "SearchableMatrix.h"
+#include "FilesWriterAlgo.h"
 
 int main() {
-    string newpro="popo";
-    string newsol="koko";
 
-    FileCacheManager *fileCacheManager = new FileCacheManager();
-    //fileCacheManager->loadFromCache("einav");
-    //fileCacheManager->keyExistInCache("popo");
-    //fileCacheManager->saveDataInCache("gilad","koren");
+    FilesWriterAlgo writerAlgo;
+    writerAlgo.generateFiles();
+
+
+
+
+
+
 
     return 0;
 }

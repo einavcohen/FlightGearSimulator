@@ -6,25 +6,115 @@
 
 #IncludeRegexTransform: 
 
-/home/einav/CLionProjects/new milestone 2/AStar.cpp
-AStar.h
-/home/einav/CLionProjects/new milestone 2/AStar.h
-queue
--
-algorithm
--
-
 /home/einav/CLionProjects/new milestone 2/AStar.h
 map
 -
 Searcher.h
 /home/einav/CLionProjects/new milestone 2/Searcher.h
 
+/home/einav/CLionProjects/new milestone 2/BFS.h
+queue
+/home/einav/CLionProjects/new milestone 2/queue
+Searcher.h
+/home/einav/CLionProjects/new milestone 2/Searcher.h
+
+/home/einav/CLionProjects/new milestone 2/BestFirstSearch.h
+Searcher.h
+/home/einav/CLionProjects/new milestone 2/Searcher.h
+
+/home/einav/CLionProjects/new milestone 2/CacheManager.h
+string
+-
+
+/home/einav/CLionProjects/new milestone 2/ClientHandler.h
+
+/home/einav/CLionProjects/new milestone 2/DFS.h
+queue
+/home/einav/CLionProjects/new milestone 2/queue
+Searcher.h
+/home/einav/CLionProjects/new milestone 2/Searcher.h
+
+/home/einav/CLionProjects/new milestone 2/FileCacheManager.h
+string
+-
+sstream
+-
+iostream
+-
+map
+-
+fstream
+-
+vector
+-
+Solver.h
+/home/einav/CLionProjects/new milestone 2/Solver.h
+ClientHandler.h
+/home/einav/CLionProjects/new milestone 2/ClientHandler.h
+CacheManager.h
+/home/einav/CLionProjects/new milestone 2/CacheManager.h
+mutex
+-
+
+/home/einav/CLionProjects/new milestone 2/FilesWriterAlgo.h
+vector
+-
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+fstream
+-
+string
+-
+StringReverser.h
+/home/einav/CLionProjects/new milestone 2/StringReverser.h
+MySerialServer.h
+/home/einav/CLionProjects/new milestone 2/MySerialServer.h
+FileCacheManager.h
+/home/einav/CLionProjects/new milestone 2/FileCacheManager.h
+MyTestClientHandler.h
+/home/einav/CLionProjects/new milestone 2/MyTestClientHandler.h
+SearchableMatrix.h
+/home/einav/CLionProjects/new milestone 2/SearchableMatrix.h
+SearcherSolver.h
+/home/einav/CLionProjects/new milestone 2/SearcherSolver.h
+DFS.h
+/home/einav/CLionProjects/new milestone 2/DFS.h
+BestFirstSearch.h
+/home/einav/CLionProjects/new milestone 2/BestFirstSearch.h
+BFS.h
+/home/einav/CLionProjects/new milestone 2/BFS.h
+AStar.h
+/home/einav/CLionProjects/new milestone 2/AStar.h
+
+/home/einav/CLionProjects/new milestone 2/MySerialServer.h
+Server.h
+/home/einav/CLionProjects/new milestone 2/Server.h
+
+/home/einav/CLionProjects/new milestone 2/MyTestClientHandler.h
+string
+-
+Solver.h
+/home/einav/CLionProjects/new milestone 2/Solver.h
+ClientHandler.h
+/home/einav/CLionProjects/new milestone 2/ClientHandler.h
+CacheManager.h
+/home/einav/CLionProjects/new milestone 2/CacheManager.h
+
 /home/einav/CLionProjects/new milestone 2/Searchable.h
 vector
 -
 StructSearchResult.h
 /home/einav/CLionProjects/new milestone 2/StructSearchResult.h
+
+/home/einav/CLionProjects/new milestone 2/SearchableMatrix.h
+Searchable.h
+/home/einav/CLionProjects/new milestone 2/Searchable.h
 
 /home/einav/CLionProjects/new milestone 2/Searcher.h
 StructSearchResult.h
@@ -32,9 +122,45 @@ StructSearchResult.h
 Searchable.h
 /home/einav/CLionProjects/new milestone 2/Searchable.h
 
+/home/einav/CLionProjects/new milestone 2/SearcherSolver.h
+string
+-
+Solver.h
+/home/einav/CLionProjects/new milestone 2/Solver.h
+Searcher.h
+/home/einav/CLionProjects/new milestone 2/Searcher.h
+
+/home/einav/CLionProjects/new milestone 2/Server.h
+ClientHandler.h
+/home/einav/CLionProjects/new milestone 2/ClientHandler.h
+
+/home/einav/CLionProjects/new milestone 2/Solver.h
+
+/home/einav/CLionProjects/new milestone 2/StringReverser.h
+string
+-
+Solver.h
+/home/einav/CLionProjects/new milestone 2/Solver.h
+ClientHandler.h
+/home/einav/CLionProjects/new milestone 2/ClientHandler.h
+CacheManager.h
+/home/einav/CLionProjects/new milestone 2/CacheManager.h
+
 /home/einav/CLionProjects/new milestone 2/StructSearchResult.h
 string
 -
 vector
 -
+
+/home/einav/CLionProjects/new milestone 2/main.cpp
+iostream
+-
+FileCacheManager.h
+/home/einav/CLionProjects/new milestone 2/FileCacheManager.h
+CacheManager.h
+/home/einav/CLionProjects/new milestone 2/CacheManager.h
+SearchableMatrix.h
+/home/einav/CLionProjects/new milestone 2/SearchableMatrix.h
+FilesWriterAlgo.h
+/home/einav/CLionProjects/new milestone 2/FilesWriterAlgo.h
 
