@@ -1,0 +1,8 @@
+//
+// Created by einav on 16/01/19.
+//
+
+#ifndef NEW_MILESTONE_2_PRIORITYQUEUE_H
+#define NEW_MILESTONE_2_PRIORITYQUEUE_H
+
+#endif //NEW_MILESTONE_2_PRIORITYQUEUE_H

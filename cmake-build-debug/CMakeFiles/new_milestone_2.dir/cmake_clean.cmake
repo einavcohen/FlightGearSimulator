@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/new_milestone_2.dir/SearchableMatrix.cpp.o"
   "CMakeFiles/new_milestone_2.dir/BFS.cpp.o"
   "CMakeFiles/new_milestone_2.dir/DFS.cpp.o"
+  "CMakeFiles/new_milestone_2.dir/BestFirstSearch.cpp.o"
+  "CMakeFiles/new_milestone_2.dir/AStar.cpp.o"
   "new_milestone_2.pdb"
   "new_milestone_2"
 )

@@ -123,6 +123,33 @@ new_milestone_2/fast:
 	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/build
 .PHONY : new_milestone_2/fast
 
+AStar.o: AStar.cpp.o
+
+.PHONY : AStar.o
+
+# target to build an object file
+AStar.cpp.o:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/AStar.cpp.o
+.PHONY : AStar.cpp.o
+
+AStar.i: AStar.cpp.i
+
+.PHONY : AStar.i
+
+# target to preprocess a source file
+AStar.cpp.i:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/AStar.cpp.i
+.PHONY : AStar.cpp.i
+
+AStar.s: AStar.cpp.s
+
+.PHONY : AStar.s
+
+# target to generate assembly for a file
+AStar.cpp.s:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/AStar.cpp.s
+.PHONY : AStar.cpp.s
+
 BFS.o: BFS.cpp.o
 
 .PHONY : BFS.o
@@ -149,6 +176,33 @@ BFS.s: BFS.cpp.s
 BFS.cpp.s:
 	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/BFS.cpp.s
 .PHONY : BFS.cpp.s
+
+BestFirstSearch.o: BestFirstSearch.cpp.o
+
+.PHONY : BestFirstSearch.o
+
+# target to build an object file
+BestFirstSearch.cpp.o:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/BestFirstSearch.cpp.o
+.PHONY : BestFirstSearch.cpp.o
+
+BestFirstSearch.i: BestFirstSearch.cpp.i
+
+.PHONY : BestFirstSearch.i
+
+# target to preprocess a source file
+BestFirstSearch.cpp.i:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/BestFirstSearch.cpp.i
+.PHONY : BestFirstSearch.cpp.i
+
+BestFirstSearch.s: BestFirstSearch.cpp.s
+
+.PHONY : BestFirstSearch.s
+
+# target to generate assembly for a file
+BestFirstSearch.cpp.s:
+	$(MAKE) -f CMakeFiles/new_milestone_2.dir/build.make CMakeFiles/new_milestone_2.dir/BestFirstSearch.cpp.s
+.PHONY : BestFirstSearch.cpp.s
 
 DFS.o: DFS.cpp.o
 
@@ -267,9 +321,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... new_milestone_2"
+	@echo "... AStar.o"
+	@echo "... AStar.i"
+	@echo "... AStar.s"
 	@echo "... BFS.o"
 	@echo "... BFS.i"
 	@echo "... BFS.s"
+	@echo "... BestFirstSearch.o"
+	@echo "... BestFirstSearch.i"
+	@echo "... BestFirstSearch.s"
 	@echo "... DFS.o"
 	@echo "... DFS.i"
 	@echo "... DFS.s"

@@ -84,10 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/AStar.cpp">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/AStar.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/BFS.cpp">
 			<Option target="new_milestone_2"/>
 		</Unit>
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/BFS.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/BestFirstSearch.cpp">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/BestFirstSearch.h">
 			<Option target="new_milestone_2"/>
 		</Unit>
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/CacheManager.h">
@@ -106,6 +118,9 @@
 			<Option target="new_milestone_2"/>
 		</Unit>
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/FileCacheManager.h">
+			<Option target="new_milestone_2"/>
+		</Unit>
+		<Unit filename="/home/einav/CLionProjects/new milestone 2/PriorityQueue.h">
 			<Option target="new_milestone_2"/>
 		</Unit>
 		<Unit filename="/home/einav/CLionProjects/new milestone 2/Searchable.h">
